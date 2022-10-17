@@ -1,0 +1,404 @@
+@font-face {
+    font-family: Belinda; 
+    src: url(fonts/belinda.otf)
+}
+@font-face {
+    font-family: Ubunto;
+    src:url(fonts/UbuntuMono-B.ttf);
+}
+@font-face {
+    font-family: PT-Sans-Bold;
+    src:url(fonts/PT-Sans-Bold.ttf);
+}
+@font-face{
+   	font-family: OpenSans-Semibold;
+   	src: url(fonts/OpenSans-Semibold.ttf);
+}
+@font-face {
+	font-family: PT-Sans-Regular;
+ 	src: url(fonts/PT-Sans-Regular.ttf);
+}
+ 
+header
+{
+
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+color: #fff;
+background-image: url(img/bg.JPG);
+background-repeat: no-repeat;
+background-size:cover;
+height:740px;
+}
+hr
+{
+    width:100%; 
+    height: 2px;
+    background-color: #e2e3e4;
+    border: 0;
+    margin-bottom: 30px;
+
+}
+header nav 
+{
+  display: flex;
+}
+header p
+{
+  font-family: Belinda;
+  font-size: 80px;
+  margin-top: 2px;
+}
+a
+{
+	text-decoration: none;
+	color:inherit;
+    cursor: pointer;
+}
+.menu 
+{
+  width:100%;
+  padding:10px 18px; 
+  color: #fff;
+  justify-content: center;
+
+background-size: cover;
+}
+.menu ul
+{
+	margin-top:50px;
+	display:inline-block;
+}
+
+.menu li 
+{
+  float:left;
+  list-style:none;
+  font-size: 18px;
+  font-family: OpenSans-Semibold;
+  margin: 0 18px;
+}
+.toggle-nav
+{
+	display: none;
+}
+ h1
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 5vw;
+  font-weight: 600;
+  margin-top: 60px;
+  margin-bottom: 75px;
+}
+ h2
+{
+  margin-top: 7px;
+  font-size: 3vw;
+}
+
+button
+{
+  background-color: #7B68EE;
+  border-radius: 30px;
+  border: none;
+  margin-top:75px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 15px 45px;
+  font-family: PT-Sans-Bold;
+ 
+}
+button:hover 
+{
+  background-color:#6495ED;
+}
+button_2
+{
+  background-color: #6495ED;
+  border-radius: 30px;
+  border: none;
+  margin-top:5px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 15px 45px;
+  font-family: PT-Sans-Bold;
+ 
+}
+button_2:hover 
+{
+  background-color:#00008B;
+}
+button_3
+{
+  background-color: #ccc;
+  border-radius: 30px;
+  border: none;
+  margin-top:5px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 15px 45px;
+  font-family: PT-Sans-Bold;
+}
+button_3:hover 
+{
+  background-color:#bfbfbf;
+}
+
+ul.menu_2 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section
+{
+  display:flex;
+  flex-direction:column;
+  align-items:center;    
+ 
+  font-family: PT-Sans-Regular;
+}
+.section_2
+{
+  display:flex;
+  flex-direction:column;
+  align-items:center;    
+  padding: 50px 90px;
+  font-family: PT-Sans-Regular;
+}
+.section_3
+{
+  display:flex;
+  flex-direction:column;
+  align-items:center;    
+  padding: 50px 90px;
+  font-family: PT-Sans-Regular;
+
+}
+
+/* FIRST*/
+.first
+{
+  background-color: #eeeeef;
+}
+.first  li
+{
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.first .menu_2 li h4
+{
+  color: #32373c;
+  padding: 30px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  font-family: PT-Sans-Bold;
+}
+.first .menu_2 li hr
+{
+  background-color: #c7c7c7;
+  height: 2px;
+  border: none;
+}
+.first .menu_2 li p
+{
+  color: #787b80;
+  font-size: 18px;
+}
+/*Second*/
+.second
+{
+  background-color: #f5f5f5;
+}
+
+.second .menu_2
+{
+  justify-content: space-around;
+}
+.second .menu_2 li
+{
+  flex-basis:30%;
+  margin: 0 25px 25px;
+  text-align: center;
+  padding:25px;
+}
+.second .menu_2 h4
+{
+  padding: 10px 0 25px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #40474e;
+  font-family: PT-Sans-Bold;
+}
+.second .menu_2 p
+{
+  padding: 20px 0 35px 0;
+  line-height: 1.5;
+  font-family: PT-Sans-Regular;
+  color: #787b80;
+}
+
+.second .menu_2 figure
+{
+  
+  text-align: center;
+}
+
+
+
+/* fifth */
+.fifth
+{
+  background-color: #eeeeef;
+}
+.fifth .menu_2
+{
+	margin-top:10px;
+}
+.fifth .menu_2 i
+{
+  color: #d2d5da;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+.fifth .menu_2 hr
+{
+  margin-bottom: 5px;
+}
+.fifth .menu_2 li
+{
+  flex-basis:  45%;
+  text-align: left;
+}
+.fifth .menu_2 li h4
+{
+  display: inline;
+  font-size: 15px;
+  color: #40474e;
+}
+.fifth .menu_2 li p
+{
+  color: #787b80;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+/* sixth */
+.sixth
+{
+  padding: 100px 50px;
+}
+.sixth img
+{
+  margin-right:  50px;
+}
+.sixth figcaption
+{
+  float: right;
+  width: 40%;
+}
+.sixth figcaption h4 
+{
+  display: inline;
+  font-size: 40px;
+  color: #40474e;
+  margin-bottom: 25px;
+}
+
+.sixth figcaption p
+{
+  color: #787b80;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+
+/*-------- FOOTER --------*/
+footer
+{
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  text-align: center;
+  color: #787b80;
+}
+footer .copyright
+{
+  float: left;
+}
+footer .social li
+{
+  display: inline;
+  margin: 0px 8px;
+}
+
+/*-------- MEDIA --------*/
+
+
+
+@media (min-width: 651px) and (max-width: 960px)
+{
+  header .menu li {padding:3px;}
+  img { max-width: 100%;}
+
+  .section { padding:  65px 25px; }
+ 
+  .first .menu_2 li{ flex-basis: 100%;  text-align: center;  }
+  .first.section { padding:  100px 25px; }
+  .first .menu_2 img { margin-bottom: 20px; }
+  
+  .second .menu_2 li{ flex-basis: 100%; margin: 0 auto 65px;  } /*большое расстояние*/
+  .second .menu_2 hr,p,button_2 { margin-bottom: 20px; margin-left:20px; }
+		 	
+
+  .fifth .menu_2 li { flex-basis: 100%; }
+  .fifth .menu_2 figure { width: 100%; }  /*поднять выше*/
+
+  .section_3 .menu_2 {align-items: center;} /*посередине*/
+  .section_3 .menu_2 {margin-top:2px;}   /*строку check this out поднять выше*/
+  .section_3 .menu_2 li {padding:20px;}	
+  .section_3 .menu_2 li p{padding:10px;}
+
+  .sixth  figure { width: 100%;    margin: 0 30px;   text-align: center;}           
+  .sixth  figcaption { width: 100%; text-align: center; padding:20px 0; margin: 0 auto;}
+  .sixth  figcaption p{ padding:5px; } /*текст поднять выше */
+  .sixth img {margin 0;}
+  
+  footer { padding: 10px 5px; }  /*уменьшить высоту*/
+  footer li {float:right; padding:7px; vertical-align: top;}
+	}
+@media (min-width: 961px) and (max-width: 1200px)
+{
+  .section { padding:  80px 40px;  }
+  header .menu li {padding:3px;}
+  img { max-width: 100%;}
+ 
+  .first .menu_2 li{ flex-basis: 100%; margin: 0 auto 65px; text-align: center; padding:10px; }
+  .first.section { padding:  100px 25px; }
+  .first .menu_2 img { margin-bottom: 20px; }
+	
+  .second  figure { width: 100%;    margin: 0 30px;   text-align: center;}           
+  .second  figcaption { width: 100%; text-align: center; padding:20px 0; margin: 0 auto;}
+
+  .sixth figcaption { width: 100%; padding-top: 45px; text-align: center; }
+  .sixth figure { text-align: left; }
+	
+
+}
+
+@media (min-width: 1280px)
+{
+   .section { padding:  100px 90px; }
+}
+  
