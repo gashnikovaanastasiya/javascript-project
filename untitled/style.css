@@ -1,0 +1,516 @@
+@font-face {
+    font-family: Belinda;
+    src: url(fonts/belinda.otf)
+}
+@font-face {
+    font-family: Ubunto;
+    src:url(fonts/UbuntuMono-B.ttf);
+}
+@font-face {
+    font-family: PT-Sans-Bold;
+    src:url(fonts/PT-Sans-Bold.ttf);
+}
+@font-face{
+    font-family: OpenSans-Semibold;
+    src: url(fonts/OpenSans-Semibold.ttf);
+}
+@font-face {
+    font-family: PT-Sans-Regular;
+    src: url(fonts/PT-Sans-Regular.ttf);
+}
+@font-face {
+    font-family: cabin;
+    src: url(fonts/cabin.regular.ttf);
+}
+
+header
+{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-image: url(img/bg.JPG);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:740px;
+}
+hr
+{
+    width:100%;
+    height: 2px;
+    background-color: #e2e3e4;
+    border: 0;
+    margin-bottom: 30px;
+
+}
+header nav
+{
+    display: flex;
+}
+header p
+{
+    font-family: Belinda;
+    font-size: 80px;
+    margin-top: 2px;
+}
+a
+{
+    text-decoration: none;
+    color:inherit;
+    cursor: pointer;
+}
+.menu
+{
+    width:100%;
+    padding:10px 18px;
+    color: #fff;
+    justify-content: center;
+
+    background-size: cover;
+}
+.menu ul
+{
+    margin-top:50px;
+}
+
+.menu ul
+{
+    display:inline-block;
+}
+
+.menu li
+{
+    float:left;
+    list-style:none;
+    font-size: 18px;
+    font-family: OpenSans-Semibold;
+    margin: 0 18px;
+}
+.toggle-nav
+{
+    display: none;
+}
+h1
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5vw;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 75px;
+}
+h2
+{
+    margin-top: 7px;
+    font-size: 3vw;
+}
+
+button
+{
+    background-color: #7B68EE;
+    border-radius: 30px;
+    border: none;
+    margin-top:75px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 15px 45px;
+    font-family: PT-Sans-Bold;
+
+}
+button:hover
+{
+    background-color:#6495ED;
+}
+button_2
+{
+    background-color: #6495ED;
+    border-radius: 30px;
+    border: none;
+    margin-top:5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 15px 45px;
+    font-family: PT-Sans-Bold;
+
+}
+
+button_3
+{
+    background-color: #ccc;
+    border-radius: 30px;
+    border: none;
+    margin-top:5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 15px 45px;
+    font-family: PT-Sans-Bold;
+    outline: none !important;
+}
+button_3:hover
+{
+    background-color:#bfbfbf;
+}
+.menu d
+{
+    margin-bottom: 30px;
+}
+ul.menu_2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    font-family: PT-Sans-Regular;
+}
+.section_2
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding: 50px 90px;
+    font-family: PT-Sans-Regular;
+}
+.section_3
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding: 50px 90px;
+    font-family: PT-Sans-Regular;
+
+}
+
+
+
+/* FIRST*/
+.first
+{
+    background-color: #eeeeef;
+}
+.first  li
+{
+    flex-basis: 30%;
+    text-align: center;
+}
+.first .menu_2 li i
+{
+    color: #50c3af;
+    margin-top: 40px;
+}
+.first .menu_2 li h4
+{
+    color: #32373c;
+    padding: 30px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    font-family: PT-Sans-Bold;
+}
+.first .menu_2 li hr
+{
+    background-color: #c7c7c7;
+    height: 2px;
+    border: none;
+}
+.first .menu_2 li p
+{
+    color: #787b80;
+    font-size: 18px;
+}
+/*Second*/
+.second
+{
+    background-color: #f5f5f5;
+}
+
+.second .menu_2
+{
+    justify-content: space-around;
+}
+.second .menu_2 li
+{
+    flex-basis:30%;
+    margin: 0 25px 25px;
+    text-align: center;
+    padding:25px;
+}
+.second .menu_2 h4
+{
+    padding: 10px 0 25px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #40474e;
+    font-family: PT-Sans-Bold;
+}
+.second .menu_2 p
+{
+    padding: 20px 0 35px 0;
+    line-height: 1.5;
+    font-family: PT-Sans-Regular;
+    color: #787b80;
+}
+
+.second .menu_2 figure
+{
+
+    text-align: center;
+}
+
+
+
+/* fifth */
+.fifth
+{
+    background-color: #eeeeef;
+}
+.fifth .menu_2
+{
+    margin-top:10px;
+}
+.fifth .menu_2 i
+{
+    color: #d2d5da;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+.fifth .menu_2 hr
+{
+    margin-bottom: 5px;
+}
+.fifth .menu_2 li
+{
+    flex-basis:  45%;
+    text-align: left;
+}
+.fifth .menu_2 li h4
+{
+    display: inline;
+    font-size: 15px;
+    color: #40474e;
+}
+.fifth .menu_2 li p
+{
+    color: #787b80;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+/* sixth */
+.sixth
+{
+    padding: 100px 50px;
+}
+.sixth img
+{
+    margin-right:  2px;
+}
+.sixth figcaption
+{
+    float: right;
+    width: 50%;
+}
+.sixth figcaption h4
+{
+    display: inline;
+    font-size: 40px;
+    color: #40474e;
+    margin-bottom: 25px;
+}
+.sixth figcaption p
+{
+    color: #787b80;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+
+/*-------- FOOTER --------*/
+footer
+{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    text-align: center;
+    color: #787b80;
+}
+footer .copyright
+{
+    float: left;
+}
+footer .social li
+{
+    display: inline;
+    margin: 0px 5px;
+}
+/*-------- Modal --------*/
+
+
+
+.button_5 {
+    background-color: #6495ED;
+    border-radius: 30px;
+    border: none;
+    margin-top:5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 15px 45px;
+    font-family: PT-Sans-Bold;
+}
+
+.button_5:hover {
+    background: #3876ac;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    margin: 10% auto;
+    height: 200px;
+    width: 400px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: 2s;
+}
+
+.modal-header h2{
+    margin: 0;
+}
+
+.modal-header {
+    background: #7B68EE;
+    padding: 15px;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.modal-body {
+    padding: 10px 20px;
+    background: #fff;
+}
+
+
+.close {
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+    color: #fff;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.form {
+    margin-top: 10px;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+
+.form_input {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    margin: 0 auto;
+    display: block;
+    background-color: #7B68EE;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 15px 45px;
+    font-family: PT-Sans-Bold;
+}
+
+
+
+
+
+
+/*-------- MEDIA --------*/
+
+
+@media (min-width: 961px) and (max-width: 1200px)
+{
+    .section { padding:  80px 40px;  }
+    header .menu li {padding:3px;}
+    img { max-width: 100%;}
+
+    .first .menu_2 li{ flex-basis: 100%; margin: 0 auto 65px; text-align: center; padding:10px; }
+    .first.section { padding:  100px 25px; }
+    .first .menu_2 img { margin-bottom: 20px; }
+
+    .second  figure { width: 100%;    margin: 0 30px;   text-align: center;}
+    .second  figcaption { width: 100%; text-align: center; padding:20px 0; margin: 0 auto;}
+
+
+    .sixth figcaption { width: 100%; padding-top: 45px; text-align: left; }
+    .sixth figure { text-align: center; }
+
+
+}
+
+@media (min-width: 1280px)
+{
+    .section { padding:  100px 90px; }
+}
+
+@media screen and (max-width: 650px)
+{
+    .menu { position:relative; display:inline-block; }
+    .menu ul.big-nav {display:none; }
+    .menu ul { width: 100%; position: absolute; top: 120%; left: 0px;  padding: 10px 18px; border-radius: 3px; }
+    .menu li { margin: 5px 0px 5px 0px; float: none; display: block; }
+    .menu a { display: inline-block; text-decoration: none; margin-bottom: 20px; }
+
+    .toggle-nav { padding:20px; float: right; display:inline-block;  border-radius:3px; background:#50c3af; font-size:20px; transition:color linear 0.15s; }
+    .toggle-nav:hover, .toggle-nav.big-nav { text-decoration:none; color:#2d8164; }
+    .section { padding:  50px 45px; }
+    .section_2 { padding:  50px 45px; }
+    .section_3 { padding:  50px 45px; }
+}
+
+
+
+
+
