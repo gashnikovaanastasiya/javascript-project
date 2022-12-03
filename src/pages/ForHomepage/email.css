@@ -1,0 +1,116 @@
+
+@font-face {
+    font-family: PT-Sans-Bold;
+    src:url(//components/fonts/PT-Sans-Bold.ttf);
+}
+
+@font-face {
+    font-family: PT-Sans-Regular;
+    src: url(//components/fonts/PT-Sans-Regular.ttf);
+}
+
+
+a
+{
+    text-decoration: none;
+    color:inherit;
+    cursor: pointer;
+}
+
+
+
+.menu d
+{
+    margin-bottom: 30px;
+}
+ul.menu_2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.section_3
+{
+    display:flex;
+    /*flex-direction:column; */
+    align-items:center;
+    padding: 50px 30px;
+    background-color: #eeeeef;
+    font-family: PT-Sans-Regular;
+
+
+}
+
+
+
+/* fifth */
+
+.fifth
+{
+    background-color: #eeeeef;
+}
+
+
+.fifth .menu_2
+{
+    margin-top:10px;
+}
+.fifth .menu_2 i
+{
+    color: #d2d5da;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+.fifth .menu_2 hr
+{
+    margin-bottom: 5px;
+}
+.fifth .menu_2 li
+{
+    flex-basis:  45%;
+    display: inline-block;
+}
+.fifth .menu_2 li h4
+{
+    display: inline;
+    font-size: 15px;
+    color: #40474e;
+}
+.fifth .menu_2 li p
+{
+    color: #787b80;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+
+/*-------- Modal --------*/
+
+
+
+.button_5 {
+    background-color: #6495ED;
+    border-radius: 30px;
+    border: none;
+    margin-top:5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 15px 45px;
+    font-family: PT-Sans-Bold;
+}
+
+.button_5:hover {
+    background: #3876ac;
+}
+
+
+
+
+
+
+
+
