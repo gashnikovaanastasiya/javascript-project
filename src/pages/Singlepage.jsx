@@ -7,7 +7,7 @@ const Singlepage = () => {
     const [post, setPost] = useState(null);
 
     const goBack = () => navigate(-1);
-    const goHome = () => navigate('/', {replace: true});
+   // const goHome = () => navigate('/', {replace: true});
 
     useEffect(() => {
         fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
@@ -19,7 +19,8 @@ const Singlepage = () => {
         <div>
             <button onClick={goBack}>Go back</button>
             {/* Bad approach */}
-            <button onClick={goHome}>Go home</button>
+            { /*<button onClick={goHome}>Go home</button>*/}
+            <Link to={`/`}>Go home</Link>
             {post && (
                 <>
                     <h1>{post.title}</h1>

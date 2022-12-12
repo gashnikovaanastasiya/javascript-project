@@ -1,0 +1,74 @@
+[
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "News 1",
+    "body": "Welcom to news 1"
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "News 2",
+    "body": "Welcom to news 2"
+  },
+  {
+    "userId": 2,
+    "id": 3,
+    "title": "News 3",
+    "body": "Welcom to news 3"
+  },
+  {
+    "userId": 3,
+    "id": 4,
+    "title": "News 4",
+    "body": "Welcom to news 4"
+  },
+  {
+    "userId": 2,
+    "id": 5,
+    "title": "News 5",
+    "body": "Welcom to news 5"
+  },
+  {
+    "userId": 3,
+    "id": 6,
+    "title": "News 6",
+    "body": "Welcom to news 6"
+  },
+  {
+    "userId": 1,
+    "id": 7,
+    "title": "News 7",
+    "body": "Welcom to news 7"
+  },
+  {
+    "userId": 3,
+    "id": 8,
+    "title": "News 8",
+    "body": "Welcom to news 8"
+  },
+  {
+    "userId": 1,
+    "id": 9,
+    "title": "News 9",
+    "body": "Welcom to news 9"
+  },
+  {
+    "userId": 1,
+    "id": 10,
+    "title": "News 10",
+    "body": "Welcom to news 10"
+  },
+  {
+    "userId": 1,
+    "id": 11,
+    "title": "News 11",
+    "body": "Welcom to news 11"
+  },
+  {
+    "userId": 2,
+    "id": 12,
+    "title": "News 12",
+    "body": "Welcom to news 12"
+  }
+]

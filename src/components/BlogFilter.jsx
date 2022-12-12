@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import '../components/blogfilter.css';
+
 
 const BlogFilter = ({postQuery, latest, setSearchParams}) => {
     const [search, setSearch] = useState(postQuery);
@@ -21,11 +23,11 @@ const BlogFilter = ({postQuery, latest, setSearchParams}) => {
 
     return (
         <form autoComplete="off" onSubmit={handleSubmit}>
-            <input type="search" name="search" value={search} onChange={e => setSearch(e.target.value)} />
+            <input className="myinput" type="search" name="search" value={search} onChange={e => setSearch(e.target.value)} />
             <label style={{ padding: '0 1rem' }}>
                 <input type="checkbox" name="latest" checked={checked} onChange={e => setChecked(e.target.checked)}/> New only
             </label>
-            <input type="submit" value="Search" />
+            <input className="myinput" type="submit" value="Search" />
         </form>
     );
 };

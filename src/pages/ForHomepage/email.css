@@ -1,14 +1,11 @@
-
 @font-face {
     font-family: PT-Sans-Bold;
     src:url(//components/fonts/PT-Sans-Bold.ttf);
 }
-
 @font-face {
     font-family: PT-Sans-Regular;
     src: url(//components/fonts/PT-Sans-Regular.ttf);
 }
-
 
 a
 {
@@ -16,8 +13,6 @@ a
     color:inherit;
     cursor: pointer;
 }
-
-
 
 .menu d
 {
@@ -34,77 +29,51 @@ ul.menu_2
 .section_3
 {
     display:flex;
-    /*flex-direction:column; */
+    flex-direction:column;
     align-items:center;
-    padding: 50px 30px;
-    background-color: #eeeeef;
+    padding: 20px 30px;
+    background-color: #3b3b49;
     font-family: PT-Sans-Regular;
+    }
 
-
-}
-
-
-
-/* fifth */
-
-.fifth
-{
-    background-color: #eeeeef;
-}
-
-
-.fifth .menu_2
+.section_3 .menu_2
 {
     margin-top:10px;
 }
-.fifth .menu_2 i
+.section_3 .menu_2 i
 {
-    color: #d2d5da;
+    color: #ffffff;
     margin-bottom: 20px;
     margin-right: 5px;
 }
-.fifth .menu_2 hr
-{
-    margin-bottom: 5px;
-}
-.fifth .menu_2 li
+
+.section_3 .menu_2 li
 {
     flex-basis:  45%;
     display: inline-block;
 }
-.fifth .menu_2 li h4
+.section_3 .menu_2 li h4
 {
     display: inline;
     font-size: 15px;
-    color: #40474e;
+    color: #ffffff;
 }
-.fifth .menu_2 li p
+.section_3 .menu_2 li p
 {
-    color: #787b80;
+    color: #ffffff;
     font-size: 18px;
     text-align: left;
     margin-bottom: 40px;
 }
 
-
-/*-------- Modal --------*/
-
-
-
-.button_5 {
-    background-color: #6495ED;
-    border-radius: 30px;
+input{
+    width: 200px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 15px 0px #888;
     border: none;
-    margin-top:5px;
-    color: #fff;
-    font-weight: 600;
-    font-size: 15px;
-    padding: 15px 45px;
-    font-family: PT-Sans-Bold;
-}
-
-.button_5:hover {
-    background: #3876ac;
+    outline: none;
+    background-color: #fff;
 }
 
 
