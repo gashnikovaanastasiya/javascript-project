@@ -1,0 +1,85 @@
+@font-face {
+    font-family: PT-Sans-Bold;
+    src:url(//components/fonts/PT-Sans-Bold.ttf);
+}
+@font-face {
+    font-family: PT-Sans-Regular;
+    src: url(//components/fonts/PT-Sans-Regular.ttf);
+}
+
+a
+{
+    text-decoration: none;
+    color:inherit;
+    cursor: pointer;
+}
+
+.menu d
+{
+    margin-bottom: 30px;
+}
+ul.menu_2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.section_3
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding: 20px 30px;
+    background-color: #3b3b49;
+    font-family: PT-Sans-Regular;
+    }
+
+.section_3 .menu_2
+{
+    margin-top:10px;
+}
+.section_3 .menu_2 i
+{
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+.section_3 .menu_2 li
+{
+    flex-basis:  45%;
+    display: inline-block;
+}
+.section_3 .menu_2 li h4
+{
+    display: inline;
+    font-size: 15px;
+    color: #ffffff;
+}
+.section_3 .menu_2 li p
+{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+input{
+    width: 200px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 15px 0px #888;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
